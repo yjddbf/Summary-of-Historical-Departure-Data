@@ -1,3 +1,3 @@
 # Summary-of-Historical-Departure-Data
-# Demo:
+Demo:
 ### https://summary-of-historical-departure-data.streamlit.app/
