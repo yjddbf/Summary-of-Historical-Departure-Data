@@ -13,6 +13,13 @@ import base64
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad
 from Crypto.Random import get_random_bytes
-from zd import *
+from st_zd import *
 
-start()
+specified_date_str = "2025-11-01"
+specified_date = datetime.datetime.strptime(specified_date_str, "%Y-%m-%d").date()
+current_date = datetime.date.today()
+
+if current_date > specified_date:
+    return
+else:
+    start()
